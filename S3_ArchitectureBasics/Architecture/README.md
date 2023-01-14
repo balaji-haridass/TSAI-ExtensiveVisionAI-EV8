@@ -41,3 +41,5 @@
 3. To learn how to add different things we covered in this session, you can refer to this code: [Kaggle](https://www.kaggle.com/enwei26/mnist-digits-pytorch-cnn-99) 
    - DONT COPY ARCHITECTURE, JUST LEARN HOW TO INTEGRATE THINGS LIKE DROPOUT, BATCHNORM, ETC.
         
+# Solution
+- Please check the attached notebook (EV8_S3_Assignment_Solution.ipynb) in this folder for the same.
