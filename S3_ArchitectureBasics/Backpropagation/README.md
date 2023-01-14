@@ -23,5 +23,5 @@
 
         
 ```math
- σ(z) = \frac{1}{1+\mathrm{e}^{-x}}
+ σ(z) = \frac{1}{1+\mathrm{e}^{-z}}
 ```
