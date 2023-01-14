@@ -126,17 +126,24 @@ Now that we got the values of a_o1 & a_o2
 # Verifying the above formulas in XL
 
 - Please check the file S3_NN_BackPropagation.xlsx, present in this folder for all the formulas included
-- Data for w1 to w8, t1, t2, i1, t2 can we changed and checked for loss
-- The xls includes back-propagation updates for ~70 steps
+- All the above formula are key-ed in, so that we can check with different values
+  - Data for w1 to w8, t1, t2, i1, i2 can we changed and checked for loss
+- The xls includes back-propagation updates for ~70 steps. With this we trained a simple network in the xls sheet
 
 Let us change the learning rate in the XLS, to different values and check how the loss changes across these 70 steps
 
 
 | Learning Rate (ⴄ) | Loss Plot from Xls | Description |
 | :---:  | :---:  | --- |
-| 0.1 | <img src="https://user-images.githubusercontent.com/87327563/212446263-c2a0d39a-fcae-420d-8526-4b18b6ef03ea.png" width="400" height="400"> | Describe |
-| 0.2 | <img src="https://user-images.githubusercontent.com/87327563/212446368-844cda0b-c2e8-4395-a05c-7358e5f1cf65.png" width="400" height="400"> | Describe |
-| 0.5 | <img src="https://user-images.githubusercontent.com/87327563/212446408-e8e727d1-4208-4114-99f9-a08f949af55f.png" width="400" height="400"> | Describe |
-| 0.8 | <img src="https://user-images.githubusercontent.com/87327563/212446437-7e21c807-19f7-4709-a1c8-f511a79fb15e.png" width="400" height="400"> | Describe |
-| 1.0 | <img src="https://user-images.githubusercontent.com/87327563/212446448-be879917-d11c-484a-b401-fc5db827717a.png" width="400" height="400"> | Describe |
-| 2.0 | <img src="https://user-images.githubusercontent.com/87327563/212446513-242899af-b29d-492a-af79-9424324e6528.png" width="400" height="400"> | Describe |
+| 0.1 | <img src="https://user-images.githubusercontent.com/87327563/212446263-c2a0d39a-fcae-420d-8526-4b18b6ef03ea.png" width="400" height="400"> | Learning is slower.  |
+| 0.2 | <img src="https://user-images.githubusercontent.com/87327563/212446368-844cda0b-c2e8-4395-a05c-7358e5f1cf65.png" width="400" height="400"> | Starts to coverge faster |
+| 0.5 | <img src="https://user-images.githubusercontent.com/87327563/212446408-e8e727d1-4208-4114-99f9-a08f949af55f.png" width="400" height="400"> | Coverges faster than 0.2 |
+| 0.8 | <img src="https://user-images.githubusercontent.com/87327563/212446437-7e21c807-19f7-4709-a1c8-f511a79fb15e.png" width="400" height="400"> | Coverges faster than 0.5 |
+| 1.0 | <img src="https://user-images.githubusercontent.com/87327563/212446448-be879917-d11c-484a-b401-fc5db827717a.png" width="400" height="400"> | Coverges faster than 1.0 |
+| 2.0 | <img src="https://user-images.githubusercontent.com/87327563/212446513-242899af-b29d-492a-af79-9424324e6528.png" width="400" height="400"> | Coverges faster than 1.0 |
+
+
+This clearly explain how learning rate impacts convergence. 
+- We can change the values for w1 to w8, t1, t2, i1, i2  and checke for convergence
+- Please feel free to download and experiment with the xls sheet
+
