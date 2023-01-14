@@ -95,7 +95,7 @@ Now that we got the values of a_o1 & a_o2
         For each of the weights, do
                 Wi = Wi - ⴄ * ∂E_Total/∂Wi
                 
-                ⴄ is the learning rate. Helps to define how much more i can trim down the updates, could be 1, 0.1, 0.01, 0.001 etc
+                ⴄ is the learning rate. Helps to define how much more i can trim downor(or pull up) the updates, could be 1, 0.1, 0.01, 0.001 etc
 
 
 ### How to calculate ∂E_Total/∂Wi
@@ -123,3 +123,20 @@ Now that we got the values of a_o1 & a_o2
 ![Back-Propagation-Formulas](https://user-images.githubusercontent.com/87327563/212445866-2aca2daf-4a06-4bd2-8ee3-7901ea723f2d.png)
 
 
+# Verifying the above formulas in XL
+
+- Please check the file S3_NN_BackPropagation.xlsx, present in this folder for all the formulas included
+- Data for w1 to w8, t1, t2, i1, t2 can we changed and checked for loss
+- The xls includes back-propagation updates for ~70 steps
+
+Let us change the learning rate in the XLS, to different values and check how the loss changes across these 70 steps
+
+
+| Learning Rate (ⴄ) | Loss Plot from Xls | Description |
+| :---:  | :---:  | --- |
+| 0.1 | <img src="https://user-images.githubusercontent.com/87327563/212446263-c2a0d39a-fcae-420d-8526-4b18b6ef03ea.png" width="400" height="400"> | Describe |
+| 0.2 | <img src="https://user-images.githubusercontent.com/87327563/212446368-844cda0b-c2e8-4395-a05c-7358e5f1cf65.png" width="400" height="400"> | Describe |
+| 0.5 | <img src="https://user-images.githubusercontent.com/87327563/212446408-e8e727d1-4208-4114-99f9-a08f949af55f.png" width="400" height="400"> | Describe |
+| 0.8 | <img src="https://user-images.githubusercontent.com/87327563/212446437-7e21c807-19f7-4709-a1c8-f511a79fb15e.png" width="400" height="400"> | Describe |
+| 1.0 | <img src="https://user-images.githubusercontent.com/87327563/212446448-be879917-d11c-484a-b401-fc5db827717a.png" width="400" height="400"> | Describe |
+| 2.0 | <img src="https://user-images.githubusercontent.com/87327563/212446513-242899af-b29d-492a-af79-9424324e6528.png" width="400" height="400"> | Describe |
