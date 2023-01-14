@@ -1,1 +1,2 @@
-# TSAI-ExtensiveVisionAI-EV8
+# TSAI-EV8
+This Repository includes all the learnings and assignments from this course.
