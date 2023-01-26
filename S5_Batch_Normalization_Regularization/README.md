@@ -23,3 +23,7 @@ Make 3 versions of your 4th assignment's best model (or pick one from best assig
   - your findings for normalization techniques,
   - add all your graphs
   - your 3 collection-of-misclassified-images 
+
+# Reference
+
+- [Comparison of Batch, Layer, Instance and Group Normalization](https://www.youtube.com/watch?v=CuEU-VH6Fdw) by Hüseyin Özdemir
