@@ -65,7 +65,9 @@ The code is built to test the performance of the models w.r.t to different Norma
 ## Group Normalization
 
 # Accuracy and Loss Plots
-  
+
+![Accuracy & Loss Plots](https://user-images.githubusercontent.com/87327563/216777257-fbc30d6f-ba16-481c-b8fb-352621827bc4.png)
+
 Following are the observation from graphs
 - Group loss is lower when compared the other too
 - Eventually all converge close to similar accuracy (by 20 Epochs), with group norm perfoming relatively higher
@@ -75,6 +77,12 @@ Following are the observation from graphs
 
 ## Batch Norm + L1
 
+![BN_Plots](https://user-images.githubusercontent.com/87327563/216777047-b2902e6f-1bee-4462-a559-03f823aee4c4.png)
+
 ## Layer Norm
 
+![LN_Plits](https://user-images.githubusercontent.com/87327563/216777158-493a7053-92f3-4ff2-9cfe-673beb14c5bf.png)
+
 ## Group Norm
+
+![GN_Plots](https://user-images.githubusercontent.com/87327563/216777225-c1cf7944-b402-4126-b64c-11f8db60ae41.png)
