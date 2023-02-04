@@ -35,3 +35,46 @@ Make 3 versions of your 4th assignment's best model (or pick one from best assig
 | Instance Normalization | [IN by Hüseyin Özdemir](https://www.youtube.com/watch?v=YG60dtlLfGo) |
 
 
+# What is your code all about
+
+The code is built to test the performance of the models w.r.t to different Normalization layers (Batch, Layer, Group Normalization layers)
+
+## Code Structure
+- The code is split modulary, to seperate the model from the training/test apis 
+- Definitions.py: Has all the definitions for normalization and regularizaiton types
+- Net class (in model.py) 
+  - Defines the torch model with the architecture specified
+  - It has API to return the required Normalization layer based on parameters passed to it
+  - Includes the definitions.py
+- The main file: EV8_S5_NormalizationTypes_Split.ipynb
+  - Includes the definition.py and model.py
+  - Creates model instance with the required parametrs of regularization, normalization values
+  - Compares the peformance of the different normalization types
+ 
+# How Noramalization is performed
+
+- Normalization helps to standardize all output values before it is fed as input to the next layer
+- This help all layers to see input of similar range and this also helps the weights be within the range.
+- Different Normalization exhbits different behaviors. We need to evaluate them.
+- Let us discuss the different normalizations with CNN
+
+## Batch Normalization
+  
+## Layer Normalization
+
+## Group Normalization
+
+# Accuracy and Loss Plots
+  
+Following are the observation from graphs
+- Group loss is lower when compared the other too
+- Eventually all converge close to similar accuracy (by 20 Epochs), with group norm perfoming relatively higher
+- Batch Norm model's test accuracy varies a lot
+  
+# Misclassified Files
+
+## Batch Norm + L1
+
+## Layer Norm
+
+## Group Norm
