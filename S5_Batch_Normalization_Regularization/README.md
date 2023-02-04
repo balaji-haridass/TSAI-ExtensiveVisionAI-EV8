@@ -58,11 +58,21 @@ The code is built to test the performance of the models w.r.t to different Norma
 - Different Normalization exhbits different behaviors. We need to evaluate them.
 - Let us discuss the different normalizations with CNN
 
+## Input, kernel/Filter, Channel Output representation
+
+![Component_Rep](https://user-images.githubusercontent.com/87327563/216779433-dc76d230-475b-4ecd-bc75-d9ca23f74d60.png)
+
 ## Batch Normalization
-  
+
+![Batch_Norm](https://user-images.githubusercontent.com/87327563/216779473-ee875102-4ab4-4be4-b898-8eb1c3d8bc34.png)
+
 ## Layer Normalization
 
+![Layer_Norm](https://user-images.githubusercontent.com/87327563/216779516-6599ec99-9f5c-4f50-947b-b52b9402ffc4.png)
+
 ## Group Normalization
+
+![Group_Norm](https://user-images.githubusercontent.com/87327563/216779605-aea1de6c-f388-47c2-b689-74f739bdef31.png)
 
 # Accuracy and Loss Plots
 
