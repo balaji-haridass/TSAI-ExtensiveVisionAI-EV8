@@ -74,6 +74,22 @@ The code is built to test the performance of the models w.r.t to different Norma
 
 ![Group_Norm](https://user-images.githubusercontent.com/87327563/216779605-aea1de6c-f388-47c2-b689-74f739bdef31.png)
 
+# Noramalization Examples
+
+Please find the ![Normalizations-Calculations.xls](https://github.com/balaji-haridass/TSAI-ExtensiveVisionAI-EV8/blob/main/S5_Batch_Normalization_Regularization/Normalizations-Calculations.xlsx) for detailed calculations
+
+## Batch Normalization
+
+![Batch_NORM_Calc](https://user-images.githubusercontent.com/87327563/216807431-45bf3092-97b3-41ba-9f97-f860dc636acf.png)
+
+## Layer Normalization
+
+![Layer_Norm_Calc](https://user-images.githubusercontent.com/87327563/216807495-077bfa05-c5b4-47a4-9f0b-c264f5e9d32a.png)
+
+## Group Normalization
+
+![Group_Norm_Calc](https://user-images.githubusercontent.com/87327563/216807542-d099131b-cfbb-4d8e-b8a2-48925b3b5390.png)
+
 # Accuracy and Loss Plots
 
 ![Accuracy & Loss Plots](https://user-images.githubusercontent.com/87327563/216777257-fbc30d6f-ba16-481c-b8fb-352621827bc4.png)
